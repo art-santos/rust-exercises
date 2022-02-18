@@ -1,6 +1,6 @@
-// variables1.rs
-
 fn main() {
     let x = 5;
-    println!("x has the value {:?}", x);
+    let y = 10;
+    let z = x + y;
+    println!("The value of z is: {:?}", z);
 }
